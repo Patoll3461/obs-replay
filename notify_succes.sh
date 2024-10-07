@@ -10,11 +10,11 @@ action="$(dunstify -u normal -i video-x-generic --action="play,Play" --action="o
 
 case "$action" in
 "open")
-    nautilus "$output_directory" ;;
+    $explorer "$output_directory" ;;
 "delete")
     rm "$clip_path" 
     notify-send "Deleted Clip!" ;;
 "play")
-    gthumb "$clip_path" 
+    $video_player "$clip_path" 
 esac
 
