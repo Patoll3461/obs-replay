@@ -23,7 +23,7 @@ You will need the following packages:
 - flatpak
 - a compatible notification daemon (e.g. dunst, mako or GNOME's built in daemon)
 - The OBS flatpak version
-- The OBS WebSocket Node Library,
+- The OBS WebSocket Node Library
 - A video player of your choice
 - A file manager of your choice
 
