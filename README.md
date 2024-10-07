@@ -15,6 +15,7 @@ This utility allows OBS Replay Buffer to work with a global hotkey and also enab
 ## Installation
 
 1. Prerequesites:
+
 You will need the following packages:
 - git
 - node
@@ -33,12 +34,14 @@ You will need the following packages:
 ```
 
 2. Clone the git repository
+
 ```bash
     cd ~
     git clone https://github.com/Patoll3461/obs-replay.git
 ```
 
 3. Edit setting.conf
+
 ```bash
     cd obs-replay
     nano settings.conf
@@ -46,6 +49,7 @@ You will need the following packages:
 Here you can set the values you want.
 
 4. Add Hotkeys
+
 In the settings of your Desktop Environment add a Hotkey for saving the Replay, with the command to execute being 
 ```bash
     node /path/to/your/installation/save_replay.js
@@ -66,6 +70,7 @@ Example in Hyprland:
 ```
 
 5. OBS settings
+
 Open the OBS Flatpak installation from your application launcher or via the terminal.
 ```bash
     flatpak run com.obsproject.Studio
