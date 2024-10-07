@@ -41,13 +41,37 @@ You will need the following packages:
     git clone https://github.com/Patoll3461/obs-replay.git
 ```
 
-3. Edit setting.conf
+3. OBS settings
+
+Open the OBS Flatpak installation from your application launcher or via the terminal.
+```bash
+    flatpak run com.obsproject.Studio
+```
+Go to File > Settings > Output
+
+Set Output Mode to "Advanced"
+
+Go into the tab "Recording" and set the Recording Path to the same as you set in the settings.conf
+
+Set Recording Format to "MPEG-4(.mp4)" (!It wont work otherwise)
+
+Set your preferred Codec Settings
+
+Go to the tab "Replay Buffer" and tick "Enable Replay Buffer", you can also set your preferred length.
+
+Click "Apply" and "OK".
+
+Go to Tools > Websocket Server Settings and tick "Enable WebSocket Server", also set the Port and Password you set in settings.conf.
+
+Click "Apply" and "OK".
+
+4. Edit setting.conf
 
 ```bash
     cd obs-replay
     nano settings.conf
 ```
-Here you can set the values you want.
+Here you can set the values needed.
 
 4. Add Hotkeys
 
@@ -70,26 +94,7 @@ Example in Hyprland:
     bind = , F8, exec, node /home/YOUR_USER/obs-replay/save_replay.js
 ```
 
-5. OBS settings
+You can now start OBS over the set Hotkey!
 
-Open the OBS Flatpak installation from your application launcher or via the terminal.
-```bash
-    flatpak run com.obsproject.Studio
-```
-Go to File > Settings > Output
-Set Output Mode to "Advanced"
-Go into the tab "Recording" and set the Recording Path to the same as you set in the settings.conf
-Set Recording Format to "MPEG-4(.mp4)" (!It wont work otherwise)
-Set your preferred Codec Settings
-
-Go to the tab "Replay Buffer" and tick "Enable Replay Buffer", you can also set your preferred length.
-
-Click "Apply" and "OK".
-
-Go to Tools > Websocket Server Settings and tick "Enable WebSocket Server", also set the Port and Password you set in settings.conf.
-
-Click "Apply" and "OK".
-
-You can now quit OBS and restart it over the set Hotkey!
 You can now press the Hotkey set for saving the Replay Buffer to save the Replay Buffer!
 
