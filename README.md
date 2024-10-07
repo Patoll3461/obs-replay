@@ -34,12 +34,16 @@ You will need the following packages:
     npm install obs-websocket-js
 ```
 
+
+
 2. Clone the git repository
 
 ```bash
     cd ~
     git clone https://github.com/Patoll3461/obs-replay.git
 ```
+
+
 
 3. OBS settings
 
@@ -65,6 +69,8 @@ Go to Tools > Websocket Server Settings and tick "Enable WebSocket Server", also
 
 Click "Apply" and "OK".
 
+
+
 4. Edit setting.conf
 
 ```bash
@@ -73,7 +79,9 @@ Click "Apply" and "OK".
 ```
 Here you can set the values needed.
 
-4. Add Hotkeys
+
+
+5. Add Hotkeys
 
 In the settings of your Desktop Environment add a Hotkey for saving the Replay, with the command to execute being 
 ```bash
