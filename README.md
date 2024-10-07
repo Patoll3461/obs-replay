@@ -14,7 +14,7 @@ This utility allows OBS Replay Buffer to work with a global hotkey and also enab
 
 ## Installation
 
-1. Prerequesites
+1. Prerequesites:
 You will need the following packages:
 - git
 - node
