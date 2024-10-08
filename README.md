@@ -58,8 +58,6 @@ Set Output Mode to "Advanced"
 
 Go into the tab "Recording" and set a path for the video output.
 
-Set Recording Format to "MPEG-4(.mp4)" (!It wont work otherwise).
-
 Set your preferred Codec Settings.
 
 Go to the tab "Replay Buffer" and tick "Enable Replay Buffer", you can also set your preferred length.
