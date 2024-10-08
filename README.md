@@ -18,7 +18,7 @@ This utility allows OBS Replay Buffer to work with a global hotkey and also enab
 
 You will need the following packages:
 - git
-- node
+- nodejs
 - dunst
 - flatpak
 - a compatible notification daemon (e.g. dunst, mako or GNOME's built in daemon)
@@ -29,7 +29,7 @@ You will need the following packages:
 
 ```bash
     #Install needed packages (arch-based distributions)
-    sudo pacman -S git node dunst flatpak
+    sudo pacman -S git nodejs dunst flatpak
     flatpak install com.obsproject.Studio
     npm install obs-websocket-js
 ```
