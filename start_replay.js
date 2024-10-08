@@ -2,6 +2,8 @@ import { OBSWebSocket } from 'obs-websocket-js';
 import fs from 'fs';
 import path from 'path';
 
+import { fileURLToPath } from 'url';
+
 const obs = new OBSWebSocket();
 
 const __filename = fileURLToPath(import.meta.url);
