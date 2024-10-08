@@ -58,6 +58,8 @@ Set Output Mode to "Advanced"
 
 Go into the tab "Recording" and set a path for the video output.
 
+Recording Format MUST be set to "Matroska Video (.mkv)", otherwise it wont work (Might add an option in setting.conf to configure other formats).
+
 Set your preferred Codec Settings.
 
 Go to the tab "Replay Buffer" and tick "Enable Replay Buffer", you can also set your preferred length.
