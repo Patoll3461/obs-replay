@@ -31,16 +31,17 @@ You will need the following packages:
     #Install needed packages (arch-based distributions)
     sudo pacman -S git nodejs dunst flatpak
     flatpak install com.obsproject.Studio
-    npm install obs-websocket-js
 ```
 
 
 
-2. Clone the git repository
+2. Clone the git repository and install dependency
 
 ```bash
     cd ~
     git clone https://github.com/Patoll3461/obs-replay.git
+    cd obs-replay
+    npm install obs-websocket-js
 ```
 
 
